@@ -111,6 +111,8 @@ export default {
 					 this.mobile = respanse.data.data.mobile;
 					 this.Imgurl = respanse.data.data.headPhoto;
 					 let qrcode = new QRCode('qrcode', { 
+						width: 165,
+						height: 165,
 						text: respanse.data.data.codurl // 二维码内容  
 				    })  
 				}else{
