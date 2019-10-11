@@ -1,0 +1,39 @@
+.recommend-bg{
+    position:fixed;
+    top:63px;
+    bottom:0;
+    left:0;
+    right:0;
+    background: url(../img/BG.png) no-repeat left top,linear-gradient(90deg,#3f5eff 0%,#0e8afe 100%);
+    background-size:100% 100%;
+}
+.card-poster{
+    position:fixed;
+    top:63px;
+    bottom:0;
+    left:0;
+    right:0;
+    background: url(../img/banground-haibao.png) no-repeat left top,linear-gradient(90deg,#3f5eff 0%,#0e8afe 100%);
+    background-size:100% 100%;
+}
+.recommend-con .recommend-box .box-text{
+    font-size:12px;
+}
+.recommend-con .recommend-box .box-qrcode img{
+    width:100%;
+}
+.recommend-con .recommend-box .box-btn{
+    margin-top:15px;
+}
+.recommend-con .recommend-box .box-btn.first{
+	margin-top:10px;
+}
+.recommend-con .recommend-box .box-btn a{
+    display: block;
+    text-align: center;
+    height:40px;
+    line-height:40px;
+    font-size:15px;
+    color:#fff;
+    background:#2476ff;
+}

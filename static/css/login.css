@@ -1,0 +1,40 @@
+.account-left{
+    float: left;
+    height: 23px;
+    position: relative;
+    top: 8px;
+}
+.account-icon{
+    height: 23px;
+}
+.account-icon i {
+    width: 19px;
+    height: 23px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.account-icon-arrow {
+    background-image: url(../img/mobile.png);
+    background-size: 19px 23px;
+}
+.password-left{
+    float: left;
+    height: 23px;
+    position: relative;
+    top: 8px;
+}
+.password-icon{
+    height: 23px;
+}
+.password-icon i {
+    width: 19px;
+    height: 23px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.password-icon-arrow {
+    background-image: url(../img/password.png);
+    background-size: 19px 23px;
+}

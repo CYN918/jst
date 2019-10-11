@@ -1,0 +1,149 @@
+.box-top{
+	width: 100%;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF;
+}
+.new-flex{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	padding: 0;
+	position: relative;
+	margin-bottom: 3px;
+}
+.new-flex .line-left{
+	width: 24%;
+	float: left;
+	padding-left: 15px;
+	color: #333333;
+	font-size: 13px;
+	text-align: left;
+}
+.new-flex .flex-item{
+	width: 76%;
+	height: 47px;
+	float: right;
+}
+.icon-scan {
+    position: absolute;
+    top: 0px;
+    right: 3px;
+    width: 50px;
+    height: 50px;
+}
+.new-flex .flex-item input{
+	width: 100%;
+	
+}
+#bankName,#address,#branchName{
+	background: none;
+	height: 47px;
+	padding: 0px 25px 0px 0px;
+	font-size: 13px;
+	text-align: right;
+}
+#name,#idNo,#cardNo,#mobile{
+	height: 47px;
+	text-align: right;
+	padding-right: 10px;
+	font-size: 13px;
+	border: none;
+}
+#sequence{
+	height: 47px;
+	text-align: right;
+	padding-right: 40px;
+	border: none;
+}
+#code{
+	width: 55%;
+	height: 47px;
+	text-align: right;
+	font-size: 13px;
+	border: none;
+	float: left;
+	padding-right: 10px;
+}
+#teleTime{
+	position: relative;
+	top: 10px;
+	right: 10px;
+	float: right;
+}
+.btn-green{
+	background: #FF6A48;
+	border: none;
+	border-radius: 10px;
+}
+.box-bottom{
+	width: 100%;
+    height: 320px;
+    margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF;
+	margin-top: 15px;
+}
+.check-the{
+	width: 244px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+.check-the input{
+	position: relative;
+	top: 2px;
+	text-align: right;
+}
+.check-the label{
+	color: #666666;
+}
+.box-btn{
+	position: relative;
+	top: 20px;
+	width: 90%;
+	margin: 0px auto;
+	
+}
+.box-btn-green {
+	width: 100%;
+    padding: 9px 15px;
+    font-size: 12px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 1;
+    border: 1px solid #FF6A48;
+    background: #FF6A48;
+    color: #fff;
+}
+.line-icon i {
+    width: 10px;
+    height: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: absolute;
+    right: 11px;
+    top: 15px;
+}
+.icon-arrow {
+    background-image: url(../img/icon-right.png);
+    background-size: 11px 14.5px;
+}
+.line-icon-xiangji i{
+	width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: absolute;
+    right: 11px;
+    top: 15px;
+}
+.icon-xiangji {
+    background-image: url(../img/xiangji.png);
+    background-size: 17px 17px;
+}

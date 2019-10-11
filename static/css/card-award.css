@@ -1,0 +1,89 @@
+.award-top .top-img img{
+    width:100%;
+}
+.award-top .top-period{
+    height:40px;
+    line-height:40px;
+    background:#fff;
+    box-shadow: 0px 0px 3px 0px rgba(4, 0, 0, 0.1);
+    padding:0 15px;
+}
+.award-top .top-period .period-name{
+    font-size:15px;
+}
+.award-top .top-period .period-value{
+    padding-right:12px;
+    position:relative;
+}
+.award-top .top-period .period-value i{
+    display:block;
+    width:0;
+    height:0;
+    border:4px solid #999;
+    border-color:#999 transparent transparent;
+    position:absolute;
+    top:17px;
+    right:0px;
+
+}
+
+.count-box{
+    margin-top:15px;
+    background:#fff;
+    padding:10px 15px;
+    box-shadow: 0px 0px 3px 0px rgba(4, 0, 0, 0.1);
+}
+.count-box .count-card{
+    text-align: center;
+    background: #7D64F2;
+    background-blend-mode: normal,normal;
+    color:#fff;
+    padding:25px 0 17px;
+    font-size:12px;
+    position:relative;
+}
+.count-box .count-card .card-name{
+    font-size:12px;
+}
+.count-box .count-card .card-money{
+    font-size:30px;
+    margin-top:14px;
+}
+.count-box .count-card .card-count{
+    width:158px;
+    margin:15px auto 0;
+    height:26px;
+    line-height:24px;
+    border-radius:13px;
+    font-size:18px;
+}
+.count-box .count-card .card-mark{
+    width:35px;
+    height:18px;
+    line-height:18px;
+    font-size:12px;
+    color:#ff7e00;
+    background:#fff;
+    position: absolute;
+    left:0;
+    top:10px;
+}
+.count-box.team .count-card{
+    background-image: linear-gradient(-50deg,#3994fa 0%,#406ff3 50%,#464eeb 100%),linear-gradient(#ff9a17,#ff9a17);
+    background-blend-mode: normal,normal;
+}
+.count-box.team .count-card .card-mark{
+    color:#464eeb;
+}
+
+.award-tip{
+    padding:10px 20px;
+    line-height:16px;
+    color:#999;
+}
+.award-tip .tip-head{
+    font-size:12px;
+}
+.award-tip .tip-text{
+    font-size:11px;
+}
